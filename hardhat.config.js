@@ -1,4 +1,5 @@
 require('hardhat/config');
+require('@nomiclabs/hardhat-ethers');
 
 const { ethers } = require('ethers');
 const { task } = require('hardhat/config');
