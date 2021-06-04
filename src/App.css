@@ -19,10 +19,9 @@
   min-width: 800px;
 }
 
-.main {
+.account-summary {
   background-color: rgb(124, 173, 175);
   padding: 20px;
-  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -38,16 +37,12 @@
   font-size: 1.5rem;
 }
 
-.account-summary {
-  background-color: whitesmoke;
-  width: 60%;
-  padding: 18px;
-}
-
 .account-txs {
   background-color: yellowgreen;
   width: 40%;
   padding: 18px;
+  display: flex;
+  flex-direction: column;
 }
 
 .spacer {

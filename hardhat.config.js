@@ -4,7 +4,7 @@ require('@nomiclabs/hardhat-ethers');
 const { ethers } = require('ethers');
 const { task } = require('hardhat/config');
 // Private dapp config parameters
-const { private_key, endpoint } = require('./src/dappConfig');
+const { private_key, endpoint } = require('./src/dappConfig.js');
 
 task('accounts', 'Prints a list of accounts', async () => {
   const accounts = await ethers.getSigners();
